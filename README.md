@@ -32,13 +32,13 @@ Agora você terá acesso a três containers e suas respectivas portas:
 Como foi testado?
 passamos como parâmetro as frases abaixo:
 
-Frase 1: "Eu amo Python!"
-Frase 2: "Este filme foi péssimo."
-Frase 3: "A comida do restaurante era deliciosa."
-Frase 4: "O atendimento da loja foi horrível."
-Frase 5: "Python é ótimo para Machine Learning"
+* Frase 1: "Eu amo Python!"
+* Frase 2: "Este filme foi péssimo."
+* Frase 3: "A comida do restaurante era deliciosa."
+* Frase 4: "O atendimento da loja foi horrível."
+* Frase 5: "Python é ótimo para Machine Learning"
 
-No FastAPI, além de analise_sentimento você poderá acessar o endpoint `/metrics` para ver os dados que o Prometheus está extraindo da aplicação.
+Na FastAPI, além de analise_sentimento você poderá acessar o endpoint `/metrics` para ver os dados que o Prometheus está extraindo da aplicação.
 ## References
 
 * [Prometheus FastAPI Instrumentator](https://github.com/trallnag/prometheus-fastapi-instrumentator)
